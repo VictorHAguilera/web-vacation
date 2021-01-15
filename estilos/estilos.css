@@ -1,4 +1,137 @@
 body {
-  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
   margin: 0px;
+  overflow-x: hidden;
+}
+header {
+  height: 100vh;
+  background-image: url("/assets/fondo_home.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 0px 100px;
+}
+header nav {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  width: 100%;
+  padding: 50px 0px;
+}
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+header nav .logo {
+  width: 25%;
+  font-size: 36px;
+  font-weight: bold;
+  min-width: 360px;
+}
+header nav .menu {
+  width: 65%;
+}
+header nav .menu ul {
+  display: flex;
+  flex-flow: row;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+header nav .menu ul a {
+  margin: 0px 10px;
+  padding: 5px 10px;
+  font-size: 27px;
+}
+header nav .leng {
+  width: 15%;
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.centro-head {
+  display: flex;
+  flex-flow: row;
+  height: 60%;
+  margin-top: 30px;
+}
+.centro-head .header-text {
+  width: 65%;
+  font-size: 50px;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 50px;
+}
+.centro-head .header-anuncio {
+  width: 30%;
+}
+.centro-head .header-anuncio .tarjeta-anuncio {
+  display: flex;
+  flex-flow: row;
+  height: 100%;
+}
+.centro-head .header-anuncio .tarjeta-anuncio .titulo-tarjeta {
+  background: #1a4958;
+  color: #fff;
+  padding-left: 50px;
+  width: 275px;
+  min-width: 275px;
+  position: relative;
+}
+.centro-head .header-anuncio .tarjeta-anuncio .titulo-tarjeta h2:nth-child(1) {
+  position: absolute;
+  top: 20px;
+}
+.centro-head .header-anuncio .tarjeta-anuncio .titulo-tarjeta h2:nth-child(3) {
+  position: absolute;
+  bottom: 45px;
+}
+.centro-head .header-anuncio .tarjeta-anuncio .titulo-tarjeta h2:nth-child(4) {
+  position: absolute;
+  bottom: 20px;
+  color: #c7c7c7;
+}
+.centro-head .header-anuncio .tarjeta-anuncio .titulo-tarjeta img {
+  position: absolute;
+  bottom: 100px;
+}
+.centro-head .header-anuncio .tarjeta-anuncio .imagen-tarjeta {
+  width: 700px;
+  min-width: 700px;
+}
+.centro-head .header-anuncio .tarjeta-anuncio .imagen-tarjeta img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+.flecha-head {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+}
+.flecha-head .text-flecha {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: flex-end;
+  color: #fff;
+}
+.flecha-head .text-flecha h3 {
+  margin: 0px;
+  font-size: 19px;
+  font-weight: 300;
+}
+.flecha-head .text-flecha h2 {
+  margin: 0px;
+  font-size: 35px;
+  font-weight: 300;
+}
+.flecha-head img {
+  width: 60px;
+  height: 60px;
+  margin-left: 20px;
 }
