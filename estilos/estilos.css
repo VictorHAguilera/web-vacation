@@ -254,3 +254,19 @@ header nav .leng {
   font-weight: 600;
   margin-right: 40px;
 }
+.cont-ciudad .ciudad-info .texto-ciudad p {
+  margin-bottom: 50px;
+  font-size: 19px;
+}
+.cont-ciudad .ciudad-info .texto-ciudad .btn-ciudad {
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  padding: 17px 70px;
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  width: 210px;
+  margin-bottom: 30px;
+}
