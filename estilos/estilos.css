@@ -468,6 +468,76 @@ footer .footer-cont .footer-col4 form input[type="submit"] {
     padding-bottom: 30px;
     width: fit-content;
   }
+  header .centro-head .header-text {
+    width: 100% !important;
+    margin: 0px;
+  }
+  header .centro-head .header-text h1 {
+    margin: 0;
+    font-size: 76px;
+    margin-bottom: 80px;
+    text-align: center;
+  }
+  header .header-anuncio {
+    display: none;
+  }
+  header .flecha-head {
+    display: none;
+  }
+  .cont-ciudades .ciudad-titulo {
+    width: 50%;
+  }
+  .cont-ciudades .ciudad-tarjeta {
+    flex-flow: row wrap;
+  }
+  .cont-ciudades .ciudad-tarjeta .ciudad-contenedor {
+    width: 50%;
+  }
+  .cont-ciudad {
+    margin: 180px 0px 50px 0px;
+  }
+  .cont-ciudad .ciudad-info {
+    flex-flow: column;
+  }
+  .cont-ciudad .ciudad-info .imagen-ciudad {
+    width: 100%;
+  }
+  .cont-ciudad .ciudad-info .texto-ciudad {
+    width: 100%;
+    padding: 30px 0px;
+  }
+  .cont-ciudad .ciudad-info .btn-ciudad {
+    display: flex !important;
+    width: auto !important;
+    justify-content: center;
+  }
+  .cont-ciudad .ciudad-bg {
+    display: none;
+  }
+  .cont-servicios .serv-lista {
+    flex-flow: column;
+  }
+  .cont-servicios .serv-lista .serv-cont {
+    width: 100%;
+  }
+  .cont-servicios .serv-lista .serv-cont p {
+    padding-right: 0;
+  }
+  footer .footer-cont {
+    flex-flow: column;
+  }
+  footer .footer-cont .footer-col1 {
+    width: 100%;
+  }
+  footer .footer-cont .footer-col2 {
+    width: 100%;
+  }
+  footer .footer-cont .footer-col3 {
+    width: 100%;
+  }
+  footer .footer-cont .footer-col4 {
+    width: 100%;
+  }
 }
 #toggle:checked ~ .menu {
   display: flex;
