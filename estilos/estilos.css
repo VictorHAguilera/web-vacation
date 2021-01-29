@@ -284,3 +284,58 @@ header nav .leng {
   z-index: -10;
   opacity: 0.38;
 }
+.cont-servicios {
+  display: flex;
+  flex-flow: column;
+  padding: 0px 100px;
+  margin-bottom: 100px;
+}
+.cont-servicios .serv-titulo {
+  margin-bottom: 120px;
+  width: 100%;
+}
+.cont-servicios .serv-titulo h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+  position: relative;
+}
+.cont-servicios .serv-titulo h1:after {
+  content: "";
+  width: 120px;
+  height: 5px;
+  background-color: #000;
+  position: absolute;
+  bottom: -9px;
+  right: 50px;
+}
+.cont-servicios .serv-lista {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+}
+.cont-servicios .serv-lista .serv-cont {
+  width: 33%;
+  position: relative;
+}
+.cont-servicios .serv-lista .serv-cont img {
+  width: 85px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.cont-servicios .serv-lista .serv-cont h2 {
+  padding-left: 100px;
+  padding-right: 30px;
+  margin-top: 0px;
+}
+.cont-servicios .serv-lista .serv-cont p {
+  padding-left: 100px;
+  margin-bottom: 100px;
+  padding-right: 40px;
+  font-size: 15px;
+  font-weight: 400;
+}

@@ -314,3 +314,63 @@ header {
     opacity: 0.38;
   }
 }
+
+////////// CONTENIDO servicios
+
+.cont-servicios {
+  display: flex;
+  flex-flow: column;
+  padding: 0px 100px;
+  margin-bottom: 100px;
+  .serv-titulo {
+    margin-bottom: 120px;
+    width: 100%;
+    h1 {
+      text-align: center;
+      font-weight: bold;
+      font-size: 50px;
+      display: block;
+      margin: 0 auto;
+      width: 400px;
+      position: relative;
+
+      &:after {
+        content: "";
+        width: 120px;
+        height: 5px;
+        background-color: #000;
+        position: absolute;
+        bottom: -9px;
+        right: 50px;
+      }
+    }
+  }
+  .serv-lista {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    .serv-cont {
+      width: 33%;
+      position: relative;
+
+      img {
+        width: 85px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+      }
+      h2 {
+        padding-left: 100px;
+        padding-right: 30px;
+        margin-top: 0px;
+      }
+      p {
+        padding-left: 100px;
+        margin-bottom: 100px;
+        padding-right: 40px;
+        font-size: 15px;
+        font-weight: 400;
+      }
+    }
+  }
+}
