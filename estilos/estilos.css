@@ -421,3 +421,65 @@ footer .footer-cont .footer-col4 form input[type="submit"] {
 #toggle {
   display: none;
 }
+.res-menu {
+  display: none;
+}
+@media only screen and (max-width: 1100px) {
+  .res-menu {
+    display: flex;
+    font-size: 50px;
+    color: #fff;
+    cursor: pointer;
+    user-select: none;
+  }
+  header {
+    height: fit-content;
+  }
+  header nav {
+    flex-flow: column;
+  }
+  header nav .logo {
+    min-width: min-content;
+  }
+  header nav .menu {
+    display: none;
+    background-color: #1a4958;
+    padding-top: 30px;
+  }
+  header nav .menu ul {
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+  }
+  header nav .menu ul li {
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid rgba(255, 255, 255);
+  }
+  header nav .menu ul li a {
+    justify-content: center;
+    padding: 14px 0px;
+  }
+  header nav .leng {
+    display: none;
+    background-color: #1a4958;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    width: fit-content;
+  }
+}
+#toggle:checked ~ .menu {
+  display: flex;
+  width: 200%;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+#toggle:checked ~ .leng {
+  display: flex;
+  width: 200%;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
